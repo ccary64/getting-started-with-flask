@@ -1,16 +1,22 @@
 {
-    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
-    "python.linting.pylintPath": "${workspaceFolder}/venv/bin/pylint",
-    "python.linting.pylintArgs": [
-        "--load-plugins",
-        "pylint_flask"
-    ],
-    "python.unitTest.pyTestEnabled": false,
-    "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.unittestEnabled": true,
-    "python.venvPath": "${workspaceFolder}/venv",
-    "python.linting.enabled": true,
-    "python.linting.lintOnSave": true,
-    "python.terminal.activateEnvironment": false,
-    "python.venvFolders": ["venv"],
+  "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+  "python.linting.pylintPath": "${workspaceFolder}/venv/bin/pylint",
+  "python.linting.pylintArgs": ["--load-plugins", "pylint_flask"],
+  "python.unitTest.pyTestEnabled": false,
+  "python.unitTest.nosetestsEnabled": false,
+  "python.unitTest.unittestEnabled": true,
+  "python.venvPath": "${workspaceFolder}/venv",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.terminal.activateEnvironment": false,
+  "python.venvFolders": ["venv"],
+  "python.jediEnabled": false,
+  "python.formatting.provider": "yapf",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    ".pylintrc": "yaml"
+  }
 }

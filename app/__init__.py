@@ -12,4 +12,4 @@ migrate = Migrate(app, db)
 api = Api(app)
 login = LoginManager(app)
 
-from app import routes, models
+from . import models, controllers

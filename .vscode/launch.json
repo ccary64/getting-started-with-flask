@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Flask (development mode)",
+      "type": "python",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "stopOnEntry": true,
+      "module": "flask",
+      "env": {
+        "FLASK_ENV": "development"
+      },
+      "args": ["run", "--no-debugger", "--no-reload"],
+      "debugOptions": ["RedirectOutput"]
+    }
+  ]
+}
