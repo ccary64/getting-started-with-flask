@@ -8,4 +8,4 @@ services:
       - "5000:5000"
     environment:
       PYTHONUSERBASE: /usr/src/app/venv
-    command: python flaskr.py
+    command: python3 flaskr.py
