@@ -11,12 +11,3 @@ RUN apk add --no-cache python3 gcc musl-dev sqlite python3-dev && \
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-
-COPY ./app/requirements.txt /usr/src/app
-
-RUN pip3 install --no-cache-dir -r requirements.txt
-
-# Expose the Flask port
-EXPOSE 5000
-ENTRYPOINT ["python3"]
-CMD [ "flaskr.py"]
