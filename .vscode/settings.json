@@ -12,11 +12,12 @@
   "python.venvFolders": ["venv"],
   "python.jediEnabled": false,
   "python.formatting.provider": "yapf",
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
   "files.autoSave": "afterDelay",
   "files.associations": {
     ".pylintrc": "yaml"
-  }
+  },
+  "python.unitTest.cwd": "${workspaceFolder}"
 }
